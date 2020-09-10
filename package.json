@@ -1,7 +1,7 @@
 {
   "name": "jsx-eslint-comment",
   "main": "./lib/jsx-eslint-comment",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "description": "JSX style comments and block comments",
   "keywords": [
     "jsx",
