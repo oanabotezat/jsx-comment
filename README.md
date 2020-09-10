@@ -1,4 +1,4 @@
-# jsx-comment
+# jsx-eslint-comment
 
 A simple package for Atom that enables a keyboard shortcut for JSX comments.
 

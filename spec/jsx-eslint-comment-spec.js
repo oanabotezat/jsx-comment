@@ -1,6 +1,6 @@
 'use babel';
 
-import JsxComment from '../lib/jsx-comment';
+import JsxComment from '../lib/jsx-eslint-comment';
 
 // Use the command `window:run-package-specs` (cmd-alt-ctrl-p) to run specs.
 //
@@ -12,15 +12,15 @@ describe('JsxComment', () => {
 
   beforeEach(() => {
     workspaceElement = atom.views.getView(atom.workspace);
-    activationPromise = atom.packages.activatePackage('jsx-comment');
+    activationPromise = atom.packages.activatePackage('jsx-eslint-comment');
   });
 
-  describe('when the jsx-comment:toggleComment event is triggered', () => {
+  describe('when the jsx-eslint-comment:toggleComment event is triggered', () => {
     it('comments and uncomments the selected lines', () => {
 
       expect('<span>test</span>').toEqual('<span>test</span>');
 
-      atom.commands.dispatch(workspaceElement, 'jsx-comment:toggleComment');
+      atom.commands.dispatch(workspaceElement, 'jsx-eslint-comment:toggleComment');
 
       waitsForPromise(() => {
         return activationPromise;
