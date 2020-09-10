@@ -1,18 +1,19 @@
 {
-  "name": "jsx-comment",
-  "main": "./lib/jsx-comment",
-  "version": "0.2.0",
+  "name": "jsx-eslint-comment",
+  "main": "./lib/jsx-eslint-comment",
+  "version": "0.0.0",
   "description": "JSX style comments and block comments",
   "keywords": [
     "jsx",
+    "eslint",
     "comment",
     "block comment",
     "React"
   ],
   "activationCommands": {
-    "atom-workspace": "jsx-comment:toggleComment"
+    "atom-workspace": "jsx-eslint-comment:toggleComment"
   },
-  "repository": "https://github.com/digitalsaurus/jsx-comment",
+  "repository": "https://github.com/oanabotezat/jsx-eslint-comment",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
